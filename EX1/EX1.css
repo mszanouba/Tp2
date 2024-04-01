@@ -1,0 +1,112 @@
+
+.feuille_complete{
+    height: 1000px;
+    width: 700px;
+    position: relative;
+    border:1px solid #e3e6f0;
+    background-color: #f1f1f1;
+    
+}
+#gauche{
+    width: 40%;
+    border: solid 1px black;
+    height: 100%;
+   background-color: #27384c;
+   color:white;
+  
+}
+.droit{
+  position:relative;
+  left: 310px;
+  top: -650px;
+  color: black;
+}
+#Titre{
+    height: 100px;
+    width: 700px;
+    float:left;
+    position:relative;
+    top: 30px;
+    background-color: #5790A4;
+    display: flex;
+    flex-direction: column;
+}
+.g2{
+   position: relative;
+   top: 50px;
+  
+}
+.icon{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin-bottom: -6px;
+}
+.line{
+    border-top: 2px solid white;
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.line2{
+    border-top: 2px solid black;
+    width: 250px;
+    margin-top: -25px;
+    margin-left: 100px;
+}
+
+li {
+    padding-left: -4px;
+    width: 400px;
+}
+
+.education{
+    margin-left: -16px;
+}
+.tit{
+    margin-left: 7px;
+}
+.comp{
+    margin-left: 30px;
+}
+.large{
+    width: 390px;
+}
+.trait{
+    margin-left: -20px;
+}
+.image{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    position:absolute;
+    left:550px;
+    top: -15px;
+    border: solid white 5px;
+}
+p img{
+    margin-left: 10px;
+}
+.nom{
+    font-size:35px;
+    margin-left: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+   margin-top: 15px;
+}    
+.job{
+    font-size:18px;
+    margin-left: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:5px;
+   color: #d9d9d9;
+    margin-top: -35px;
+}
+.style_titre{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bolder;
+}
+.date{
+    direction: rtl;
+    margin-right: -90px;
+}

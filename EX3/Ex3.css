@@ -1,0 +1,95 @@
+#container{
+    height: 200px;
+    border: solid 2px black;
+    background-color: #043968;
+}
+.ecr_gauche{
+    color: white;
+    width: 200px;
+    letter-spacing: .7px;
+}
+.ecr_gauche_bleu{
+    color: #8ab5d6;
+    font-size: 15px;
+    letter-spacing: .7px;
+    margin-bottom: 1px;
+    
+
+}
+.universite{
+    letter-spacing: 5px;
+    font-size: 27px;
+    display: inline;
+    font-family: 'Lucida Sans';
+    
+}
+.applique{
+    margin-top: 1px;
+    color: #8ab5d6;
+    font-size: 15px;
+    word-spacing: 6px;
+    letter-spacing: 1.2px;
+}
+#photo_container{
+    float: left;
+    width: 130px;
+    height: 100px;
+    margin-top: -110px;
+    margin-left: 350px;
+  
+   background-image: url(logo_ensah_blanc.png);
+   background-size: cover;
+}
+
+#photo_container:hover{
+    background-image: url(logo_ensah_colore.png);
+}
+.contacter{
+    color:#8ab5d6;
+    float: right;
+    margin-top: -90px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size :12px
+}
+input{
+    background-color: #083c6a;
+    border: #256290 1px solid;
+    float: right;
+    margin-top: -55px;
+    height: 25px;
+    margin-right: 10px;
+    width: 200px
+}
+.select_barre{
+    display: flex;
+    margin-left: 10px;
+    border: #256290 1px solid;
+    height: 60px;
+    background-color: #043968;
+    height: 40px;
+    margin-top: 60px;
+}
+select{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#8ab5d6;
+    background-color:#043968;
+    height: 40px;
+    margin-right:-5px;
+    border: #256290 1px solid;
+}
+button{
+    color:#8ab5d6;
+    background-color:#043968; 
+    border: #256290 1px solid;
+
+}
+.select_barre img{
+   position: relative;
+   left: 120px;
+}
+select:hover{
+ color:rgb(245, 186, 9);
+}
+button:hover{
+    color:rgb(245, 186, 9);
+}
